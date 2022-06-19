@@ -1,0 +1,65 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.container {
+    width: 100%;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 3%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    width: 30rem;
+    border-radius: 0.3rem;
+    padding:2%;
+}
+
+button {
+    background-color: #0A58CAA6;
+    color: white;
+    padding: 4%;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.padding {
+    padding: 3%
+}
+
+.message {
+    background: #DEE2E6;
+    color: #055160;
+    position: relative;
+    padding: 5%;
+    margin: 10% 0 5% 0;
+    font-size: 14px;
+}
